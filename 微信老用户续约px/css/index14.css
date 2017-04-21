@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{margin:0;padding:0;}
+body{font-family: "苹方";background:#ededed;}
+.clearfix:after{content: "";height: 0;visibility: hidden;display: block;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.tou{height:88px;background:#231815;width:100%;margin:0 auto;}
+.tou img{margin-top:21px;margin-left:28px;}
+.tou p{height:88px;line-height:88px;color:#fff;font-size:34px;text-align: center;}
+/*头部分结束*/
+.tish{height:60px;line-height:60px;padding:15px 28px;}
+.tish img{margin-right:15px;margin-top:10px;}
+.tish p{font-size:30px;color:#989898;line-height:60px;}
+/*提示部分结束*/
+.xuanz label{height:100px;line-height: 100px;color:#666;font-size: 30px;display: block;background: #fff;border-bottom:1px solid #d1d1d1;padding-left
+:28px;}
+.xuanz label input{float:right;line-height: 100px;}
+.next1{height:90px;line-height: 90px;text-align: center;font-size: 38px;color:#fff;background:#ff8100;margin-left:28px;margin-right:28px;margin-top:90px;border-radius:10px;}
+.next1 a{display:block;height:90px;line-height: 90px;text-align: center;font-size: 38px;color:#fff;background:#ff8100;margin-left:28px;margin-right:28px;}

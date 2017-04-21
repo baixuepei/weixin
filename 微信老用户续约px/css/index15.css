@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{margin:0;padding:0;}
+body{font-family: "苹方";background:#ededed;}
+.clearfix:after{content: "";height: 0;visibility: hidden;display: block;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.tou{height:88px;background:#231815;width:100%;margin:0 auto;}
+.tou img{margin-top:21px;margin-left:28px;}
+.tou p{height:88px;line-height:88px;color:#fff;font-size:34px;text-align: center;}
+/*头部分结束*/
+.tish{height:40px;padding:35px 28px;background: #fff;border-bottom:1px solid #d1d1d1;}
+.tish img{margin-right:15px;}
+.tish p{font-size:30px;color:#989898;line-height:40px;}
+.order_info{padding:12px 28px;background:#fff;} 
+.order_info p{font-size:28px;color:#666;line-height:50px;}
+.order_info .p1{font-size:28px;color:#333;font-weight: bold;}
+.order_info .user1{letter-spacing:6px;}
+.order_info .tel{margin-left:140px;}
+.order_info .address{margin-left:140px;}
+.order_info .money{font-weight: bold;font-size:36px;color:#ff8201}
+.pay{height:90px;line-height: 90px;background:#ff8100;margin-left:28px;margin-right:28px;border-radius: 5px;margin-top:90px;}
+.pay a{display: block;color:#fff;text-align:center;font-size:38px;}

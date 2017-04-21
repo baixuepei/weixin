@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{margin:0;padding:0;}
+body{font-family: "苹方";background:#ededed;}
+.clearfix:after{content: "";height: 0;visibility: hidden;display: block;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.tou{height:88px;background:#231815;width:100%;margin:0 auto;}
+.tou img{margin-top:21px;margin-left:28px;}
+.tou p{height:88px;line-height:88px;color:#fff;font-size:34px;text-align: center;}
+/*头部分结束*/
+.tish{height:60px;padding:35px 28px;}
+.tish img{margin-right:15px;margin-top:10px;}
+.tish p{font-size:24px;color:#989898;line-height:36px;}
+/*提示部分结束*/
+.status{background: #fff;margin-bottom:20px;border-bottom:1px solid #d1d1d1;padding-bottom:30px;}
+.status .p1{margin-left:40px;margin-top:30px;}
+.status p{font-size: 28px;color:#666;line-height: 55px;}
+/*订单详情部分结束*/
+.wxts{margin-top:46px;margin-left:28px;margin-right:28px;}
+.wxts p{font-size:24px;color:#989898;line-height:40px;}
+.wxts .wxts_title{color:#666;line-height: 45px;}
+/*温馨提示部分结束*/
+.ordercha{height:110px;background: #fff;margin-top:20px;margin-bottom:30px;border-bottom:1px solid #cbcbcb;}
+.ordercha .order{margin-top:-20px;margin-left:28px;margin-right:15px;}
+.ordercha span{line-height: 110px;font-size: 30px;color:#666;}
+.ordercha .jianty{margin-top:33px;margin-right:28px;}
+.ordercha .send{margin-right:20px;font-size: 30px;color:#0066cb;}

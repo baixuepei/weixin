@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+<meta name="apsple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/index8.css"/>
+<script src="js/jquery.js"></script>
+<script src="js/reset1.js"></script>
+</head>
+<body>   
+<div class="tou">
+    <img src="images/fanhui.png" alt="" class="fl">
+    <p>续约套餐</p>
+</div>
+<div class="taocan">
+    <div class="tc clearfix">
+    <div class="taocan_info fl">
+        <p class="tit">2012天翼飞young19元套餐<br>
+（原2011天翼秋季校园19元套餐）</p>
+        <p class="t1">到期日期： 2015-10-01</p>
+        <p class="t1">套餐内设备：<span class="see">查看</span></p>    
+    </div>
+    <div class="im fr"><img src="images/heb.png" sx=1 alt="" class="zhangkhb"></div>
+    </div>
+    <div class="gb" style="display:none;">
+        <a href="">一键续约</a>
+        <a href="">变更套餐</a>
+    </div>
+    <div class="seetank" style="display:none;">
+        <p>宽带<span>AD****0000002</span></p>    
+        <p>手机<span>181****0000</span></p>
+        <p>固话<span>021-52***000</span></p> 
+        <p class="close">关闭</p>   
+    </div>
+</div>
+<div class="taocan">
+    <div class="tc clearfix">
+    <div class="taocan_info fl">
+        <p class="tit">2012天翼飞young19元套餐<br>
+（原2011天翼秋季校园19元套餐）</p>
+        <p class="t1">到期日期： 2015-10-01</p>
+        <p class="t1">套餐内设备：<span class="see">查看</span></p>    
+    </div>
+    <div class="im fr"><img src="images/heb.png" sx=1 alt="" class="zhangkhb"></div>
+    </div>
+    <div class="gb" style="display:none;">
+        <a href="">一键续约</a>
+        <a href="">变更套餐</a>
+    </div>
+    <div class="seetank" style="display:none;">
+        <p>宽带<span>AD****0000002</span></p>    
+        <p>手机<span>181****0000</span></p>
+        <p>固话<span>021-52***000</span></p> 
+        <p class="close">关闭</p>   
+    </div>
+</div>
+<div class="taocan">
+    <div class="tc clearfix">
+    <div class="taocan_info fl">
+        <p class="tit">2012天翼飞young19元套餐<br>
+（原2011天翼秋季校园19元套餐）</p>
+        <p class="t1">到期日期： 2015-10-01</p>
+        <p class="t1">套餐内设备：<span class="see">查看</span></p>    
+    </div>
+    <div class="im fr"><img src="images/heb.png" sx=1 alt="" class="zhangkhb"></div>
+    </div>
+    <div class="gb" style="display:none;">
+        <a href="">一键续约</a>
+        <a href="">变更套餐</a>
+    </div>
+    <div class="seetank" style="display:none;">
+        <p>宽带<span>AD****0000002</span></p>    
+        <p>手机<span>181****0000</span></p>
+        <p>固话<span>021-52***000</span></p> 
+        <p class="close">关闭</p>   
+    </div>
+</div>
+<div class="wxts">
+    <p class="wxts_title">温馨提示</p>
+    <p>1、套餐不可变更可能存在以下几种情况：设备号已欠费或停机、设备号存在未完工订单、设备号未通过实名制认证、设备号为政企用户、仅针对到期的套餐进行续约。<br>
+2、在订单受理过程中，若身份审核未通过，可点击订单进度查询中的详情页面进行重新提交。<br>
+3、月末26日后的续约订单，可能在次月才能完工，新套餐生效日期可能在次次月。<br>
+4、因您的续约订单24小时后才能完工，如要取消维系订单或变更订单内容事宜，可拨打我处网厅客服电话4008219009咨询。<br>
+5、商品配送须知：配送仅限本人签收，不能代收。</p>
+</div>
+
+<div class="bg1" style="display:none;background-color:#000;background:url(images/bg11.png) ;position:fixed;z-index:5;left:0;top:0;width:100%;height:100%;opacity:0.5;filter: alpha(opacity=50);-moz-opacity: 0.5;"></div>
+</body>
+<script>
+$(function(){
+$(".zhangkhb").click(function(){
+    if(Number($(this).attr("sx"))){
+    $(this).attr("src","images/zhank.png");
+    $(this).attr("sx",0);
+    $(this).parents(".taocan").children(".gb").css("display","block");
+
+    } else{
+    $(this).attr("src","images/heb.png");
+    $(this).attr("sx",1);
+     $(this).parents(".taocan").children(".gb").css("display","none");
+    }
+})
+// 点击最右边按钮出现下拉内容部分结束
+$(".see").click(function(){
+    $(this).parents(".taocan").children(".seetank").css("display","block");
+    $(".bg1").css("display","block");
+})
+// 点击查看，出现弹框跟半透明层部分结束
+$(".close").click(function(){
+    $(this).parents(".seetank").css("display","none");
+    $(".bg1").css("display","none");
+})
+// 弹框关闭按钮部分结束  
+})
+</script>
+</html>

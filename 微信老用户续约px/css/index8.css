@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{margin:0;padding:0;}
+body{font-family: "苹方";background:#ededed;}
+.clearfix:after{content: "";height: 0;visibility: hidden;display: block;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.tou{height:88px;background:#231815;width:100%;margin:0 auto;}
+.tou img{margin-top:21px;margin-left:28px;}
+.tou p{height:88px;line-height:88px;color:#fff;font-size:34px;text-align: center;}
+/*头部分结束*/
+.wxts{margin-top:46px;margin-left:28px;margin-right:28px;}
+.wxts p{font-size:24px;color:#989898;line-height:40px;}
+.wxts .wxts_title{color:#666;line-height:65px;}
+.taocan{padding:30px 28px 35px 28px;background: #fff;margin-bottom:20px;border-bottom:1px solid #d1d1d1;}
+.tc .im{margin-top:90px;}
+.tc .tit{font-size:30px;color:#333; line-height:36px;margin-bottom:25px; }
+.tc .t1{font-size:30px;color:#666;line-height: 55px;}
+.tc .t1 span{color:#0066cb;text-decoration:underline;}
+.gb a{width:335px;height:80px;line-height: 80px;text-align: center;display: inline-block;font-size:34px;color:#fff;background:#ff8100;border-radius:5px;}
+.seetank{padding:50px 40px;background:#fff;position:absolute;left:50%;/*top:50%;*/top:30px;margin-left:-315px;z-index:9999;border:1px solid #ff8100;}
+
+.seetank p{width:460px;height:60px;line-height:60px;background:#f6f7f7;font-size:30px;color:#666;margin-bottom:20px;padding-left:88px;}
+.seetank span{padding-left:150px;}
+.seetank .close{width:335px;height:80px;line-height:80px;font-size:34px;color:#fff;background:#ff8100;text-align:center;margin:0 auto;margin-top:40px;padding:0;border-radius:5px;}
+.taocan{position: relative;}

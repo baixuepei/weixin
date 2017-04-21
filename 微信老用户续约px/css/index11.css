@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{margin:0;padding:0;}
+body{font-family: "苹方";background:#ededed;}
+.clearfix:after{content: "";height: 0;visibility: hidden;display: block;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.tou{height:88px;background:#231815;width:100%;margin:0 auto;}
+.tou img{margin-top:21px;margin-left:28px;}
+.tou p{height:88px;line-height:88px;color:#fff;font-size:34px;text-align: center;}
+/*头部分结束*/
+.tish{height:40px;padding:35px 28px;background: #fff;border-bottom:1px solid #d1d1d1;}
+.tish img{margin-right:15px;}
+.tish p{font-size:24px;color:#989898;line-height:36px;}
+.tc1{background: #fff;margin-bottom:20px;border-bottom:1px solid #d1d1d1;margin-bottom:20px;}
+ .p1{padding:30px 35px;border-bottom: 1px solid #d1d1d1;background: #fff; }
+ .p1 p{font-size:24px;color:#666;line-height:36px;}
+ .p1 p span{color:#999;margin-left:10px;}
+ .p1 .yn li{width:215px;height:80px;line-height:80px;margin-right:20px;}
+.tc1 p{font-size:30px;color:#666;}
+.tcj{margin:0 auto;padding:28px 28px;border-bottom:1px solid #d1d1d1;}
+.tcj li{list-style: none;width:220px;height:80px;line-height:80px;text-align: center;color:#999;font-size:40px;border:1px solid #cecece;float:left;border-radius: 5px; }
+.tcj li.middle{margin-left:10px;margin-right:10px;}
+.tcj li.on{color:#fff;background:#ff8100;}
+
+.qd1{margin:15px 28px;}
+.qd1 .money{font-size:42px;color:#ff8101;font-weight: bold;line-height: 80px;}
+.qd1 span{font-size:30px;margin-right:10px;}
+.qd1 .qding{font-size:34px;width:335px;height:80px;line-height:80px;color:#fff;text-align: center;background:#ff8100;border-radius: 5px;margin-top:3px;}
